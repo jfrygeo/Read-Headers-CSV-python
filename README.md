@@ -2,7 +2,7 @@
 Python script to read first line of csv files. 
 
 ## Background
-Have a large file that you need to view the headers? This simple script reads the headers without opening the file. Use this if you have a large csv that needs it's headers examined. 
+Have a large file that you need to view the headers? This simple script reads the headers without opening the file in notepad or Excel. Use this if you have a large csv that needs it's headers examined. 
 
 ### Usage
 This script works with Python 3.X. 
