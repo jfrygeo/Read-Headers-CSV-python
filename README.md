@@ -8,7 +8,7 @@ Have a large file that you need to view the headers? This simple script reads th
 This script works with Python 3.X. 
 
 ####Running the Script
-1. Open your favorite IDE or Notepad and provide the path to your CSV in the <i> filepath </i> variable.
+1. Open your favorite IDE or Notepad and provide the path to your CSV in the <i> filename </i> variable.
 2. Save the file
 3. Run the <i>Read-Headers-CSV-python.py</i> script by doing one of the following:
   + Run in the IDE.  
