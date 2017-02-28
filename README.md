@@ -1,5 +1,5 @@
 # Read-Headers-CSV-python
-Python script to read first line of csv files. 
+Python script to read first line of csv files and get the total amount of lines in the file. 
 
 ## Background
 Have a large file that you need to view the headers? This simple script reads the headers without opening the file in notepad or Excel. Use this if you have a large csv that needs it's headers examined. 
