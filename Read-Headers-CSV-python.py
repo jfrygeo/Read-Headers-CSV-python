@@ -25,4 +25,5 @@ def file_length(infile):
     print (str(i + 2) + " Total lines and headers")
 file_length(infile)
 
+os.system("Pause")
 exit()
