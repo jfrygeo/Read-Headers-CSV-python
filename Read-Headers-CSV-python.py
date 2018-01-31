@@ -5,11 +5,12 @@ import csv,os
 
 #Input the filepath to your csv file: i.e. "C:\\MyFolder\\MyCSV.csv"
 #filename = "C:\\MyFolder\\MyCSV.csv"
-filename = os.path.join(os.path.dirname(__file__)+"\SampleData\TestCSV.csv")
+#filename = os.path.join(os.path.dirname(__file__)+"\SampleData\TestCSV.csv")
+response = input("Please Enter Location of CSV: ")
 
 #Depending on your data source, you may need to change the encoding(i.e. ('utf-8','utf-16')
 #infile = open(filename, 'r', encoding=("iso-8859-15"))
-infile = open(filename, 'r')
+infile = open(response, 'r')
 
 # Read the headers of the csv file
 def file_headers(infile):
