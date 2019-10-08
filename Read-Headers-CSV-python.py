@@ -27,26 +27,24 @@ firstdata = csv.DictReader(infile).fieldnames
 def file_length(infile):
     for i, length in enumerate(infile):
         pass
-    print (str(i + 2) + " Total lines and headers")
+    print (str(i + 3) + " Total lines and headers")
 file_length(infile)
 
-#create a csv with sample data of the headers and row
-
-
-
+# Do you want to create a sample csv?
 yesno = input("Would you like a sample output CSV (Y/N)?: ")
 while True:
     yesChoice = set(['yes', 'y', 'Y', 'YES'])
     noChoice = set(['no', 'n', 'N', 'NO'])
     if yesno in yesChoice:
+
         # create a csv with sample data of the headers and row
         newcsv = input("Please Enter an Output Location and filename for Sample CSV: ")
         with open (newcsv, 'w') as file:
             writer = csv.writer(file,lineterminator="\n")
             writer.writerow(fieldnames)
             writer.writerow(firstdata)
-
             break
+
     if yesno in noChoice:
         break
 
